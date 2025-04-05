@@ -2,7 +2,8 @@
 # See https://docs.cocotb.org/en/stable/quickstart.html for more info
 
 # List your source files here:
-SOURCE_FILES = project.vhdl
+#SOURCE_FILES = project.vhdl
+SOURCE_FILES = VGA.vhdl vga_demo.vhdl
 
 # If /usr/bin/iverilog exists then we are in Github Actions
 ifeq ($(shell test -e /usr/bin/iverilog && echo -n yes),yes)

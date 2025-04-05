@@ -22,12 +22,10 @@ architecture rtl of tt_um_vga_example is
   signal video_active : std_logic;
   signal pix_x, pix_y : std_logic_vector(9 downto 0);
   signal counter : unsigned(8 downto 0);
-  signal process_event : std_logic;
   signal top : signed(9 downto 0) := to_signed(230, 10);
   signal bottom : signed(9 downto 0) := to_signed(250, 10);
   signal left : signed(10 downto 0) := to_signed(310, 11);
   signal right : signed(10 downto 0) := to_signed(330, 11);
-  signal switch : std_logic;
   signal x_dir, y_dir : signed(1 downto 0) := to_signed(1, 2); 
 begin
 
