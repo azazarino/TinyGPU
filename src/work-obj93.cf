@@ -1,0 +1,7 @@
+v 4
+file . "VGA.vhdl" "79b2cac3852451167412c2fe39c680fd5ccd16eb" "20250405125823.704":
+  entity vga_sync_gen at 1( 0) + 0 on 15;
+  architecture rtl of vga_sync_gen at 17( 379) + 0 on 16;
+file . "vga_demo.vhdl" "076e6948cc3d6f83225d7f5b1c46688f2f4018a6" "20250405163855.721":
+  entity tt_um_vga_example at 1( 0) + 0 on 75;
+  architecture rtl of tt_um_vga_example at 18( 457) + 0 on 76;

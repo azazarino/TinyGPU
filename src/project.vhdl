@@ -21,6 +21,8 @@ begin
     --uo_out <= std_logic_vector(unsigned(ui_in) + unsigned(uio_in));
     uo_out <= not (ui_in and uio_in);
     uio_out <= "00000000";
-    uio_oe <= "00000000";
+    uio_oe <= "00000000"; --done
+
+
 
 end Behavioral;
